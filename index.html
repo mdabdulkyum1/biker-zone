@@ -12,7 +12,7 @@
 
 <body>
     <header class="relative">
-        <img src="images/latest3.png" class="absolute inset-0 object-cover w-full h-full" alt="" />
+        <img src="images/latest2.png" class="absolute inset-0 object-cover w-full h-full" alt="" />
         <div class="relative bg-gray-900 bg-opacity-75">
             <nav class="navbar bg-transparent text-white lg:max-w-screen-xl mx-auto py-5">
                 <div class="navbar-start">
@@ -40,7 +40,7 @@
                     <a class="btn btn-ghost text-4xl font-bold">Go Ride</a>
                 </div>
                 <div class="navbar-end">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu menu-horizontal px-1 hidden md:flex lg:flex ">
                         <li><a href="#" class="font-bold">Home</a></li>
                         <li><a href="#" class="font-bold">Shop</a></li>
                         <li><a href="#" class="font-bold">News</a></li>
@@ -71,7 +71,45 @@
     </header>
     <!-- main -->
     <main>
-  
+        <section class="flex flex-col justify-center items-center my-14 lg:max-w-screen-xl mx-auto">
+                <div class="div">
+                    <h1 class="text-3xl  lg:text-5xl font-semibold">Featured Bikes In This Year</h1>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-20 mt-10">
+                    <img src="images/latest1.png" alt="latest">
+                    <img src="images/latest2.png" alt="latest">
+                    <img src="images/latest3.png" alt="latest">
+                </div>
+        </section>
+        <!-- Featured Ends -->
+        <!-- latest News Starts -->
+        <section class="flex flex-col justify-center items-center my-14 lg:max-w-screen-xl mx-auto px-6 lg:px-0">+
+                <div class="">
+                    <h1 class="text-3xl  lg:text-5xl font-semibold">latest News</h1>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-20 mt-10">
+
+                    <div class="card">
+                        <img src="images/latest1.png" alt="latest">
+                        <h3 class="text-2xl font-semibold mt-5">Ducati XDIAVEL S-73</h3>
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <a class="btn mt-10 bg-[#E76F51] border-none text-white px-9">Read More</a>
+                    </div>
+                    <div class="card">
+                        <img src="images/latest2.png" alt="latest">
+                        <h3 class="text-2xl font-semibold mt-5">Ducati XDIAVEL S-73</h3>
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <a class="btn btn-outline btn-info mt-10 text-white px-9">Read More</a>
+                    </div>
+                    <div class="card">
+                        <img src="images/latest3.png" alt="latest">
+                        <h3 class="text-2xl font-semibold mt-5">Ducati XDIAVEL S-73</h3>
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <a class="btn mt-10 text-white px-9 btn btn-outline btn-info">Read More</a>
+                    </div>
+                </div>
+        </section>
+        <!-- latest News Ends -->
     </main>
     <!-- footer -->
     <footer>
